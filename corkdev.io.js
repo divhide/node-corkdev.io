@@ -8,7 +8,7 @@ var _ = require("lodash"),
 
 /**
  *
- * Get the html from corkdev.io
+ * Get the Corkdev.io event object from api.meetup.com
  *
  * @return {Promise}
  *
@@ -45,7 +45,7 @@ var getCorkdevIOEvent = function(){
  * @return
  *
  */
-var showMeetup = function(meetup){
+var printEventInformation = function(meetup){
 
     /// load html from description
     var $ = cheerio.load(meetup.description);
@@ -81,8 +81,8 @@ var showMeetup = function(meetup){
     Q()
     /// get the corkdevIO event
     .then(getCorkdevIOEvent)
-    /// show information
-    .then(showMeetup)
+    /// print event information
+    .then(printEventInformation)
     /// error handling
     .catch(function(e){
         console.log(e);
