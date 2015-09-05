@@ -1,0 +1,20 @@
+{
+  "name": "corkdev.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "corkdev.io.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "lodash": "^3.10.1",
+    "q": "^1.4.1",
+    "request": "^2.61.0"
+  },
+  "bin": {
+    "corkdev.io": "corkdev.io.js"
+  }
+}
