@@ -1,7 +1,7 @@
 {
   "name": "corkdev.io",
-  "version": "1.0.9",
-  "description": "",
+  "version": "1.0.12",
+  "description": "Command-line utility that shows information about the latest cordev.io meetup.",
   "main": "corkdev.io.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
